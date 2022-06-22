@@ -10,5 +10,5 @@ app.use(express.json())
 
 app.use("/api/v1/auth",authRouter)
 
-const PORT = process.env.PORT || 6000
+const PORT = process.env.PORT || 9000
 app.listen(PORT, () => console.log("🌞🌞🌞🌞 http://localhost:" + PORT))
